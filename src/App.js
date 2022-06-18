@@ -203,7 +203,7 @@ function App() {
       <h3 className='simulation-header'> {simulationType}  </h3>
         <Table
             type={"Evaluation"}
-            tableData={[{throughPut: throughPutVal, storageUtil: storageUtilization, partitionsNotUsed: notUsed + "%", partitionsHeavilyUsed: heavilyUsed + "%", waitingQueue: queueTime, waitingInQueue: avgWaitingTime, fragmentation: internalFragementation + "bytes"}]}
+            tableData={[{throughPut: throughPutVal, storageUtil: storageUtilization, partitionsNotUsed: notUsed + "%", partitionsHeavilyUsed: heavilyUsed + "%", waitingQueue: queueTime, waitingInQueue: avgWaitingTime, fragmentation: internalFragementation + " bytes"}]}
             headingColumns={["Throughput", "Storage Utilization", "% Part. Not Used", "% Part. Heavily Used (>= 40%)" , "Waiting Queue Length", "Waiting Time in Queue", "Total Internal Fragmentation"]}
             rowsPerPage={10}
         />
