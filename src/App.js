@@ -9,11 +9,8 @@ import resourceIcon from './images/resource.png';
 
 function App() {
 
-  //Set Background-color
   document.body.style = 'background: #2C2C2C;';
   document.title = 'Chiu, Gwyneth | MP3';
-
-
 
   //STATES
   const [start, setStart] = useState(false);
